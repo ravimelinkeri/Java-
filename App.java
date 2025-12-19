@@ -76,7 +76,35 @@ public class App{
     
     // System.out.println(a*b);
         
-        
+    // Day 03 Scanner Promblems
+
+    // 01) Take one integer input from the user and print it.
+
+        // Scanner sc = new Scanner(System.in);
+        // int num = sc.nextInt();
+
+        // System.out.println("You entered the : " + num );
+
+    // 02) Take two integers from the user and print their sum.
+
+        // Scanner newSc = new Scanner(System.in);
+        // int num1 = newSc.nextInt();
+        // int num2 = newSc.nextInt();
+
+        // int sum = num1 + num2;
+        // System.out.println("Your total value is " + sum);
+
+    // 03) Take one double value from the user and print it.
+
+        // Scanner sc = new Scanner(System.in);
+        // double num = sc.nextDouble();
+        // System.out.println("Your value is " + num);
+
+    // 04) Take the user’s name as input and print:
+
+    Scanner sc = new Scanner(System.in);
+    String name = sc.nextLine();
+    System.out.println(name);
     
     }
 }
