@@ -102,10 +102,64 @@ public class App{
 
     // 04) Take the user’s name as input and print:
 
-    Scanner sc = new Scanner(System.in);
-    String name = sc.nextLine();
-    System.out.println(name);
+        // Scanner sc = new Scanner(System.in);
+        // String name = sc.nextLine();
+        // System.out.println("Hello "+ name);
+
+        // 05) Take age as input and print
+
+        // Scanner sc = new Scanner(System.in);
+        // int age = sc.nextInt();
+        // System.out.println("You are " +age + " year old");
     
+
+        // 06) Take an integer and check if it is even or odd.
+
+            // Scanner sc = new Scanner(System.in);
+            // int num = sc.nextInt();
+            // if (num%2 == 0) {
+            //     System.out.println("Number is Even");
+            // } else {
+            //     System.out.println("Number is odd"); 
+            // }
+
+        // 07) Take two numbers and print the greater number.
+
+                // Scanner sc = new Scanner(System.in);
+                // int num1 = sc.nextInt();
+                // int num2 = sc.nextInt();
+
+                // if (num1 > num2) {
+                //     System.out.println("Number "+ num1 + " is Grater than " + num2);
+                // } else {
+                //     System.out.println("Number "+ num2 + " is Grater than " + num1);
+                // }
+
+        // 08) Take length and width of a rectangle and print the area.
+
+                // Scanner sc = new Scanner(System.in);
+                // int length = sc.nextInt();
+                // int width = sc.nextInt();
+
+                // int Area = length*width;
+
+                // System.out.println(Area);
+
+        // 09) Take a single character as input and print it.
+
+                // Scanner sc = new Scanner(System.in);
+                // char APL = sc.next().charAt(0);
+                // System.out.println(APL);
+
+        // 10) Take name, age, and marks as input and print all values.
+
+                // Scanner sc = new Scanner(System.in);
+                // String name = sc.nextLine();
+                // int age = sc.nextInt();
+                // double marks = sc.nextDouble();
+
+                // System.out.println(name + "\n" + age + "\n" + marks);
+
     }
 }
 
